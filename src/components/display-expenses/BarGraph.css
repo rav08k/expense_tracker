@@ -1,0 +1,24 @@
+.bar-graph-box{
+    width: 100%;
+    height: 140px;
+    border-radius: 10px;
+    background: #f8dfff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px 5px;
+}
+
+.bar-wrapper{
+    width: 40px;
+    height: 95%;
+    /* border: solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bar-wrapper>label{
+    font-size: 13px;
+}

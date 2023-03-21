@@ -1,0 +1,35 @@
+features :
+    1) Adding new expenses with date
+    2) Showing the added expenses in form of cards having date, item and amount
+    3) Date card will have 3 parts year, month and date in the format 2022 - Nov - 22
+    4) Each of above cards will consist of various react components
+    5) A filter to show expenses on the basis of year
+    6) A bar graph to compare the expenses on the basis of month
+
+Front-end Componental Design :
+    ->Main Screen - App.js
+            ->Container
+                ->Add-new-expense Component
+                                    ->Input-field Component
+                                                    ->Title Input Field
+                                                    ->Amoutn Input Field
+                                                    ->Date Input Field
+                                    ->Submit-button Component
+                                                    ->Add Expense Button 
+                                                    ->Cancel Button
+                ->Display-expenses Component
+                                    ->Filter Component
+                                                    ->Fiter by year title
+                                                    ->Year dropdown select box
+                                    ->Bar-graph Component
+                                                    ->Bar Component
+                                                                ->Bar box
+                                                                ->Month title
+                                    ->Expenses-cards Component
+                                                    ->Date Component
+                                                                ->Month title
+                                                                ->Year
+                                                                ->Date
+                                                    ->Item name
+                                                    ->Amount box
+

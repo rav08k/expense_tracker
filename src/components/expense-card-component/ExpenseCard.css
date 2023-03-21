@@ -1,0 +1,19 @@
+.expense-card{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    /* border: solid red; */
+    border-radius: 10px;
+    background-color: rgb(99, 99, 99);
+    margin-top: 15px;
+    position: relative;
+}
+
+.expense-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    text-shadow: 0.1px 0.1px 1px #ffffff;
+}
